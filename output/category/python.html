@@ -2,7 +2,7 @@
 <html lang="ru">
 <head>
         <meta charset="utf-8" />
-        <title>Fzona - Tags</title>
+        <title>Fzona - Python</title>
         <link rel="stylesheet" href="https://sysadmin.fzona.com.ua/theme/css/main.css" />
 
         <!--[if IE]>
@@ -20,23 +20,43 @@
                         <li><a href="https://sysadmin.fzona.com.ua/pages/pgp-key.html">PGP Key</a></li>
     
                         <li><a href="https://sysadmin.fzona.com.ua/pages/about.html">Обо мне</a></li>
-                    <li><a href="https://sysadmin.fzona.com.ua/category/python.html">Python</a></li>
+                    <li class="active"><a href="https://sysadmin.fzona.com.ua/category/python.html">Python</a></li>
                     <li><a href="https://sysadmin.fzona.com.ua/category/web.html">Web</a></li>
                 </ul>
                 </nav>
         </header><!-- /#banner -->
 
-<section id="content" class="body">
-    <h1>Tags for Fzona</h1>        <li><a href="https://sysadmin.fzona.com.ua/tag/ci.html">ci</a> (1)</li>
-        <li><a href="https://sysadmin.fzona.com.ua/tag/circleci.html">circleci</a> (1)</li>
-        <li><a href="https://sysadmin.fzona.com.ua/tag/deploy.html">deploy</a> (1)</li>
-        <li><a href="https://sysadmin.fzona.com.ua/tag/github.html">github</a> (1)</li>
-        <li><a href="https://sysadmin.fzona.com.ua/tag/python.html">python</a> (1)</li>
-        <li><a href="https://sysadmin.fzona.com.ua/tag/static.html">static</a> (1)</li>
-        <li><a href="https://sysadmin.fzona.com.ua/tag/test.html">test</a> (1)</li>
-        <li><a href="https://sysadmin.fzona.com.ua/tag/website.html">website</a> (1)</li>
-</section>
+            <aside id="featured" class="body">
+                <article>
+                    <h1 class="entry-title"><a href="https://sysadmin.fzona.com.ua/skipping-tests-depending-python-version.html">Skipping tests depending on the Python version</a></h1>
+<footer class="post-info">
+        <span>Чтв 21 февраля 2019</span>
+<span>| tags: <a href="https://sysadmin.fzona.com.ua/tag/python.html">python</a><a href="https://sysadmin.fzona.com.ua/tag/test.html">test</a></span>
+</footer><!-- /.post-info --><p>SDFSDFSDFASDFASDFASDF ASDF ASDF ASDF</p>
+<p>This library, combined with the <strong>skipIf</strong> method of <a href="https://docs.python.org/3/library/unittest.html#skipping-tests-and-expected-failures">unittest library</a>
+can be used to easily skip tests when using Python 3:</p>
+<div class="highlight"><pre><span></span><span class="kn">import</span> <span class="nn">six</span>
+<span class="kn">import</span> <span class="nn">unittest</span>
 
+
+<span class="k">class</span> <span class="nc">MyTestCase</span><span class="p">(</span><span class="n">unittest</span><span class="o">.</span><span class="n">TestCase</span><span class="p">):</span>
+
+
+    <span class="nd">@unittest.skipIf</span><span class="p">(</span><span class="n">six</span><span class="o">.</span><span class="n">PY3</span><span class="p">,</span> <span class="s2">&quot;not compatible with Python 3&quot;</span><span class="p">)</span>
+    <span class="k">def</span> <span class="nf">test_example</span><span class="p">(</span><span class="bp">self</span><span class="p">):</span>
+        <span class="c1"># This test won&#39;t run under Python 3</span>
+        <span class="k">pass</span>
+</pre></div>
+
+
+<h2>Credits</h2>
+<p>Thanks to my colleague <strong><a href="https://github.com/valnico">Nicola</a></strong> for giving me the inspiration to write this post.</p>                </article>
+<p class="paginator">
+    Page 1 / 1
+</p>
+            </aside><!-- /#featured -->
+            </ol><!-- /#posts-list -->
+            </section><!-- /#content -->
         <section id="extras" class="body">
                 <div class="blogroll">
                         <h2>blogroll</h2>
