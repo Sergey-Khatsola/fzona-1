@@ -2,19 +2,17 @@
 # -*- coding: utf-8 -*- #
 from __future__ import unicode_literals
 
-AUTHOR = 'Sergey Khatsola'
-SITENAME = 'Fzona'
-SITEURL = 'https://sysadmin.fzona.com.ua'
-#AVATAR = 'theme/images/avatar.png'
+AUTHOR = ''
+SITENAME = ''
+SITESUBTITLE = ''
+SITEURL = 'localhost'
 
 PATH = 'content'
 
-TIMEZONE = 'Europe/Kiev'
+TIMEZONE = 'UTC'
 
-DEFAULT_LANG = 'ru'
-
-THEME = 'themes/respo'
-
+DEFAULT_LANG = 'en'
+DEFAULT_DATE_FORMAT = '%B %d, %Y'
 # Feed generation is usually not desired when developing
 FEED_ALL_ATOM = None
 CATEGORY_FEED_ATOM = None
@@ -29,11 +27,15 @@ LINKS = (('Pelican', 'http://getpelican.com/'),
          ('You can modify those links in your config file', '#'),)
 
 # Social widget
-SOCIAL = (('Добавить линк на соц сеть 1', '#'),
-          ('Добавить линк на соц сеть 2', '#'),
-          ('Добавить линк на соц сеть 3', '#'),)
+SOCIAL = (('You can add links in your config file', '#'),
+          ('Another social link', '#'),)
 
-DEFAULT_PAGINATION = 5
+DEFAULT_PAGINATION = 10
 
 # Uncomment following line if you want document-relative URLs when developing
 #RELATIVE_URLS = True
+#THEME = ''
+STATIC_PATHS = ['images']
+PLUGINS = ['neighbors']
+
+
