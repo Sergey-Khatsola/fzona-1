@@ -5,6 +5,7 @@ from __future__ import unicode_literals
 AUTHOR = 'Sergey Khatsola'
 SITENAME = 'Fzona'
 SITEURL = 'https://sysadmin.fzona.com.ua'
+AVATAR = 'theme/images/avatar.png'
 
 PATH = 'content'
 
