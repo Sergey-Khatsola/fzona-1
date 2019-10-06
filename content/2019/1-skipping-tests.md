@@ -1,7 +1,7 @@
 Title: Skipping tests depending on the Python version
 Date: 2019-02-21 20:00
 Author: Sergey Khatsiola
-Category: Python
+Category: BLOG
 Tags: python, test
 Slug: skipping-tests-depending-python-version
 Status: published

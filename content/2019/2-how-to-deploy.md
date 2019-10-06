@@ -1,7 +1,7 @@
 Title: How to deploy a static website to Github Pages using CircleCI
 Date: 2019-02-24 11:00
 Author: Sergey Kha
-Category: Web
+Category: BLOG
 Tags: ci, circleci, github, static, website, deploy
 Slug: how-to-deploy-static-website-github-pages-circleci
 Status: published
