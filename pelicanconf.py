@@ -5,7 +5,17 @@ from __future__ import unicode_literals
 AUTHOR = 'Sergey Khatsola'
 SITENAME = 'Fzona'
 SITEURL = 'https://sysadmin.fzona.com.ua'
-#AVATAR = 'theme/images/avatar.png'
+
+SITEIMAGE = '/images/profile.png'
+DESCRIPTION = 'A functional, clean, responsive theme for Pelican. Heavily ' \
+              'inspired by crowsfoot and clean-blog, powered by Bootstrap.'
+
+ICONS = (
+    ('github', 'https://github.com/nairobilug/pelican-alchemy'),
+)
+
+PYGMENTS_STYLE = 'default'
+HIDE_AUTHORS = True
 
 PATH = 'content'
 
@@ -13,7 +23,7 @@ TIMEZONE = 'Europe/Kiev'
 
 DEFAULT_LANG = 'ru'
 
-THEME = 'themes/respo'
+THEME = 'themes/pelican-alchemy/alchemy'
 
 # Feed generation is usually not desired when developing
 FEED_ALL_ATOM = None
