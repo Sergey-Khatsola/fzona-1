@@ -4,7 +4,7 @@ from __future__ import unicode_literals
 
 AUTHOR = 'Sergey Khatsola'
 SITENAME = 'Fzona'
-SITEURL = 'http://sysadmin.fzona.com.ua'
+SITEURL = 'https://sysadmin.fzona.com.ua'
 
 PATH = 'content'
 
@@ -28,8 +28,9 @@ LINKS = (('Pelican', 'http://getpelican.com/'),
          ('You can modify those links in your config file', '#'),)
 
 # Social widget
-SOCIAL = (('You can add links in your config file', '#'),
-          ('Another social link', '#'),)
+SOCIAL = (('Добавить линк на соц сеть 1', '#'),
+          ('Добавить линк на соц сеть 2', '#'),
+          ('Добавить линк на соц сеть 3', '#'),)
 
 DEFAULT_PAGINATION = 5
 
